@@ -16,7 +16,7 @@ const Layout = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <span className="navbar-brand">React Redux Task</span>
+          <span className="navbar-brand">React Task</span>
 
           <div className="d-flex align-items-center gap-2 ms-auto">
             <NavLink
@@ -37,9 +37,6 @@ const Layout = () => {
       <main className="container py-4">
         <div className="mb-3">
           <h1 className="h4 mb-1">Welcome, {user?.firstName || user?.username || "User"}</h1>
-          <p className="text-muted mb-0">
-            Build requirement: authentication and product listing with edit/delete support.
-          </p>
         </div>
 
         <Outlet />
